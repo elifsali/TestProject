@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NunitTests
-build_property.ProjectDir = C:\Users\Dell Latitude E5570\Desktop\src\SpecFlow2024-main\src\testProject\NunitTests\
+build_property.ProjectDir = C:\Users\Dell Latitude E5570\Desktop\TestProject\NunitTests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

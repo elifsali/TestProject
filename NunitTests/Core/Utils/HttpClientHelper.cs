@@ -26,7 +26,15 @@ namespace NunitTests.Core.Utils
         {
             return await _httpClient.PostAsync(endpoint, body);
         }
+        public async Task<HttpResponseMessage> PUT(string endpoint, StringContent body)
+        {
+            return await _httpClient.PutAsync(endpoint, body);
+        }
 
+        public async Task<HttpResponseMessage> DELETE(string endpoint)
+        {
+            return await _httpClient.DeleteAsync(endpoint);
+        }
         public async Task<UserResponse> CreateNewUserAsync(string name)
         {
             var userBody = CreateUserRequestBody(name);
